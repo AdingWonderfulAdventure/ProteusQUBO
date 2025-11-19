@@ -1,10 +1,10 @@
-# ProteusQUBO: Quantum-Inspired Molecular Design Framework
+# Janus-QUBO: A Duality-Aware Framework for Navigating Chemical Space with a Tunable Quantum-Inspired Landscape
 
 A QUBO (Quadratic Unconstrained Binary Optimization) based molecular design and optimization system for drug discovery and molecular property optimization.
 
 ## Overview
 
-ProteusQUBO combines deep learning and quantum-inspired optimization techniques to enable efficient molecular design in continuous latent spaces. The framework consists of three main components:
+Janus-QUBO combines deep learning and quantum-inspired optimization techniques to enable efficient molecular design in continuous latent spaces. The framework consists of three main components:
 
 - **Block_bAE**: Molecular autoencoder for bidirectional SMILES ↔ binary latent vector conversion
 - **Qmol_FM**: Factorization machine-based optimizer with QUBO formulation
@@ -21,8 +21,8 @@ ProteusQUBO combines deep learning and quantum-inspired optimization techniques 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ProteusQUBO.git
-cd ProteusQUBO
+git clone https://github.com/yourusername/Janus-QUBO.git
+cd Janus-QUBO
 
 # Install dependencies
 pip install -r requirements.txt
@@ -101,7 +101,7 @@ decode_latent(
 ## Project Structure
 
 ```
-ProteusQUBO_GitHub/
+Janus-QUBO_GitHub/
 ├── Block_bAE/                          # Molecular autoencoder
 │   ├── model_gru_transformer.py        # Model architecture
 │   ├── inference_latent.py             # SMILES → Latent encoding
