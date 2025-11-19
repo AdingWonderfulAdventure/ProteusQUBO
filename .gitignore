@@ -1,0 +1,137 @@
+# ProteusQUBO - Git Ignore Configuration
+
+# ==================== 大型数据文件 ====================
+# HDF5数据文件
+*.h5
+*.hdf5
+
+# CSV数据文件
+*.csv
+
+# NumPy数组
+*.npy
+*.npz
+
+# Pickle文件
+*.pkl
+*.pickle
+
+# ==================== 模型文件 ====================
+# PyTorch模型
+*.ckpt
+*.pth
+*.pt
+
+# TensorFlow模型
+*.pb
+*.h5  # 如果是TF模型
+
+# ==================== 大型目录 ====================
+# 实验结果 (1.1TB)
+Results/
+results/
+
+# 验证数据 (83GB)
+Val/
+val/
+
+# 保存的模型 (20GB)
+saved_models/
+
+# 实验日志
+swanlog/
+
+# 测试数据
+test/
+bernoulli/
+
+# 数据集属性
+dataset_props/
+
+# ==================== Python ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# ==================== IDE配置 ====================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Claude Code
+.claude/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ==================== 日志文件 ====================
+*.log
+logs/
+
+# ==================== 临时文件 ====================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==================== 图像和可视化 ====================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+visualizations/
+plot/
+
+# ==================== 环境配置 ====================
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
